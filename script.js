@@ -9,9 +9,10 @@ form.addEventListener("submit", function (e) {
 
   // Validation
   if (age === "" || name === "") {
-    alert("Please enter valid details.");
-    return;
-  }
+  alert("Please enter valid details");
+  return;
+}
+
 
   // Promise creation
   const votePromise = new Promise((resolve, reject) => {
